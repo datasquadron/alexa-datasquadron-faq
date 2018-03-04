@@ -1,0 +1,20 @@
+{
+  "name": "alexa-datasquadron-faq",
+  "version": "0.1.0",
+  "description": "An Alexa Skill that provides info about Data Squadron.",
+  "main": "datasquadron-faq.js",
+  "dependencies": {
+    "alexa-app": "^3.1.0"
+},
+"devDependencies": {
+  "mocha": "^2.3.4",
+  "express": "^4.14.0",
+  "supertest": "^2.0.1",
+  "chai": "^3.4.1"
+},
+"scripts": {
+  "test": "mocha test"
+},
+"author": "Bob Gale (bob.gale@datasquadron.com)",
+"license": "MIT"
+}

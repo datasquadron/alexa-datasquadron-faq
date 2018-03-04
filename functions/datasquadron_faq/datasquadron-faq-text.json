@@ -1,0 +1,27 @@
+{
+    "WELCOME_MESSAGE": "Welcome to Data Squadron, a data engineering consultancy. ",
+    "HELLO_MESSAGE": "Hello there! ",
+    "LISTENING_MESSAGE": "I'm listening. ",
+    "HELP_PROMPT": "You can ask us a question, like 'Who are you', or 'What do you do'. ",
+    "HELP_REPROMPT": "Sorry, I didn't get that. Ask a question, like 'Who are you', or 'What do you do'. Or you can say 'Exit'. ",
+    "STOP_MESSAGE": "Goodbye! ",
+    "UNMATCHED_MESSAGE": "Sorry, I don't know anything about ",
+    "UNMATCHED_REPROMPT": "Try asking a question like who, what, where, or why. ",
+    "UNHANDLED_MESSAGE": "What the fork do you say? ",
+    "UNHANDLED_REPROMPT": "Holy mother forking shirt balls, I did not understand that! ",
+    "SQUADRON_WHO": "Data Squadron is a multi-disciplinary team of experts who provide data analytics, engineering and visualization services. We have worked together since 2011. ",
+    "SQUADRON_WHO_PROMPT": "Try asking something like 'What do you do', or 'Who do you work with'. ",
+    "SQUADRON_WHAT": "We help customers extract intelligence from large amounts of data by building big data pipelines, API integrations and visually compelling dashboards. ",
+    "SQUADRON_WHAT_PROMPT": "Try asking 'What technology do you use'. ",
+    "SQUADRON_FOR_WHOM": "We primarily work with smaller companies who need contractors to extend their internal teams and quickly tackle difficult projects. ",
+    "SQUADRON_WHY": "Because we are a agile, multi-disciplinary team of experts, we are able to quickly understand your needs, design and engineer appropriate solutions, and deploy them using the latest big data and cloud technologies. ", 
+    "SQUADRON_WHERE": "We're based in Seattle but able to work remotely with clients anywhere. ",
+    "SQUADRON_TECH": "We build solutions primarily with open source big data technologies and Tableau. ",
+    "SQUADRON_TECH_REPROMPT": "For more info, say 'tell me more about the tech you use.' ",
+    "SQUADRON_TECH_MORE": "We use big data technologies such as Hadoop, Kafka, Spark; programming languages such as Java, Python, Ruby on Rails, Javascript and GoLang; SQL and NoSQL databases; and AWS cloud infrastructure and services. Oh and we build Alexa chat bots too. ",
+    "SQUADRON_QUESTIONS": [
+        "Are your internal teams swamped with existing projects? ",
+        "Are you having trouble hiring people with key skills in Seattle's highly competitive tech job market? ",
+        "Do you need to grow your team quickly but worry about the management overhead of hiring a lot of individual contractors? "
+    ]
+}

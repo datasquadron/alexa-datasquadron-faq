@@ -1,0 +1,7 @@
+{
+  "name": "alexa",
+  "description": "Data Squadron FAQ.",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::592584503830:role/service-role/alexa-datasquadron-faq"
+}

@@ -1,0 +1,100 @@
+SquadronWhoIntent	who
+SquadronWhoIntent	who are you
+SquadronWhoIntent	who you are
+SquadronWhatIntent	what
+SquadronWhatIntent	what do you do
+SquadronWhyIntent	why
+SquadronWhyIntent	why should I work with you
+SquadronWhyIntent	why should I use you
+SquadronWhyIntent	why should I hire you
+SquadronWhereIntent	where are you
+SquadronWhereIntent	location
+SquadronWhereIntent	city
+SquadronWhereIntent	state
+SquadronWhereIntent	country
+SquadronWhereIntent	what location are you in
+SquadronWhereIntent	what city are you in
+SquadronWhereIntent	what state are you in
+SquadronWhereIntent	what country are you in
+SquadronWhereIntent	where are you located
+SquadronWhereIntent	where are you headquartered
+SquadronWhereIntent	where are you based
+SquadronWhereIntent	where are your headquarters
+SquadronWhereIntent	where are your offices
+SquadronForWhomIntent	for whom
+SquadronForWhomIntent	tell me who you work with
+SquadronForWhomIntent	who works with you
+SquadronForWhomIntent	who works with
+SquadronForWhomIntent	who do you work with
+SquadronForWhomIntent	customers
+SquadronForWhomIntent	clients
+SquadronForWhomIntent	about your customers
+SquadronForWhomIntent	about your clients
+SquadronForWhomIntent	who are your customers
+SquadronForWhomIntent	who are your clients
+SquadronForWhomIntent	tell me who your customers are
+SquadronForWhomIntent	tell me who your clients are
+SquadronTechIntent	technologies
+SquadronTechIntent	tech
+SquadronTechIntent	software
+SquadronTechIntent	platforms
+SquadronTechIntent	tools
+SquadronTechIntent	databases
+SquadronTechIntent	programming languages
+SquadronTechIntent	what technologies
+SquadronTechIntent	what tech
+SquadronTechIntent	what software
+SquadronTechIntent	what platforms
+SquadronTechIntent	what tools
+SquadronTechIntent	what databases
+SquadronTechIntent	what programming languages
+SquadronTechIntent	what technologies do you use
+SquadronTechIntent	what tech do you use
+SquadronTechIntent	what software do you use
+SquadronTechIntent	what platforms do you use
+SquadronTechIntent	what tools do you use
+SquadronTechIntent	what databases do you use
+SquadronTechIntent	what programming languages do you use
+SquadronTechIntent	what technologies is used by
+SquadronTechIntent	what tech is used by
+SquadronTechIntent	what software is used by
+SquadronTechIntent	what platforms is used by
+SquadronTechIntent	what tools is used by
+SquadronTechIntent	what databases is used by
+SquadronTechIntent	what programming languages is used by
+SquadronTechMoreIntent	more technologies
+SquadronTechMoreIntent	more tech
+SquadronTechMoreIntent	more software
+SquadronTechMoreIntent	more platforms
+SquadronTechMoreIntent	more tools
+SquadronTechMoreIntent	more databases
+SquadronTechMoreIntent	more programming languages
+SquadronTechMoreIntent	more about technologies
+SquadronTechMoreIntent	more about tech
+SquadronTechMoreIntent	more about software
+SquadronTechMoreIntent	more about platforms
+SquadronTechMoreIntent	more about tools
+SquadronTechMoreIntent	more about databases
+SquadronTechMoreIntent	more about programming languages
+SquadronTechMoreIntent	tell me more about technologies
+SquadronTechMoreIntent	tell me more about tech
+SquadronTechMoreIntent	tell me more about software
+SquadronTechMoreIntent	tell me more about platforms
+SquadronTechMoreIntent	tell me more about tools
+SquadronTechMoreIntent	tell me more about databases
+SquadronTechMoreIntent	tell me more about programming languages
+SquadronTechMoreIntent	tell me more about the technologies you use
+SquadronTechMoreIntent	tell me more about the tech you use
+SquadronTechMoreIntent	tell me more about the software you use
+SquadronTechMoreIntent	tell me more about the platforms you use
+SquadronTechMoreIntent	tell me more about the tools you use
+SquadronTechMoreIntent	tell me more about the databases you use
+SquadronTechMoreIntent	tell me more about the programming languages you use
+SquadronUnmatchedIntent	do you know anything about {UnmatchedPhrase}
+SquadronUnmatchedIntent	about {UnmatchedPhrase}
+SquadronUnmatchedIntent	for {UnmatchedPhrase}
+SquadronUnmatchedIntent	tell me about {UnmatchedPhrase}
+SquadronUnmatchedIntent	what do you think about {UnmatchedPhrase}
+SquadronUnmatchedIntent	I would like to know about {UnmatchedPhrase}
+SquadronUnmatchedIntent	something about {UnmatchedPhrase}
+SquadronUnmatchedIntent	can you tell me about {UnmatchedPhrase}
