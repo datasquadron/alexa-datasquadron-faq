@@ -6,4 +6,3 @@ console.log(faq.schema());
 console.log();
 console.log("UTTERANCES: ");
 console.log(faq.utterances());
-

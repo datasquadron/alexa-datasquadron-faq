@@ -1,7 +1,7 @@
 {
   "name": "alexa-datasquadron-faq",
   "version": "0.1.0",
-  "description": "An Alexa Skill that provides info about Data Squadron.",
+  "description": "An Alexa Skill that answers frequently asked questions about Data Squadron.",
   "main": "datasquadron-faq.js",
   "dependencies": {
     "alexa-app": "^3.1.0"
