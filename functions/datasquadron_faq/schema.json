@@ -1,0 +1,189 @@
+{
+   "interactionModel": {
+      "languageModel": {
+         "intents": [
+            {
+               "name": "AMAZON.HelpIntent",
+               "samples": []
+            },
+            {
+               "name": "AMAZON.CancelIntent",
+               "samples": []
+            },
+            {
+               "name": "AMAZON.StopIntent",
+               "samples": []
+            },
+            {
+               "name": "SquadronHello",
+               "samples": []
+            },
+            {
+               "name": "SquadronWhoIntent",
+               "samples": [
+                  "who",
+                  "who are you",
+                  "who you are"
+               ]
+            },
+            {
+               "name": "SquadronWhatIntent",
+               "samples": [
+                  "what",
+                  "what do you do"
+               ]
+            },
+            {
+               "name": "SquadronWhyIntent",
+               "samples": [
+                  "why",
+                  "why should I work with you",
+                  "why should I use you",
+                  "why should I hire you"
+               ]
+            },
+            {
+               "name": "SquadronWhereIntent",
+               "samples": [
+                  "where are you",
+                  "location",
+                  "city",
+                  "state",
+                  "country",
+                  "what location are you in",
+                  "what city are you in",
+                  "what state are you in",
+                  "what country are you in",
+                  "where are you located",
+                  "where are you headquartered",
+                  "where are you based",
+                  "where are your headquarters",
+                  "where are your offices"
+               ]
+            },
+            {
+               "name": "SquadronForWhomIntent",
+               "samples": [
+                  "for whom",
+                  "tell me who you work with",
+                  "who works with you",
+                  "who works with",
+                  "who do you work with",
+                  "customers",
+                  "clients",
+                  "about your customers",
+                  "about your clients",
+                  "who are your customers",
+                  "who are your clients",
+                  "tell me who your customers are",
+                  "tell me who your clients are"
+               ]
+            },
+            {
+               "name": "SquadronTechIntent",
+               "samples": [
+                  "technologies",
+                  "tech",
+                  "software",
+                  "platforms",
+                  "tools",
+                  "databases",
+                  "programming languages",
+                  "what technologies",
+                  "what tech",
+                  "what software",
+                  "what platforms",
+                  "what tools",
+                  "what databases",
+                  "what programming languages",
+                  "what technologies do you use",
+                  "what tech do you use",
+                  "what software do you use",
+                  "what platforms do you use",
+                  "what tools do you use",
+                  "what databases do you use",
+                  "what programming languages do you use",
+                  "what technologies is used by",
+                  "what tech is used by",
+                  "what software is used by",
+                  "what platforms is used by",
+                  "what tools is used by",
+                  "what databases is used by",
+                  "what programming languages is used by"
+               ]
+            },
+            {
+               "name": "SquadronTechMoreIntent",
+               "samples": [
+                  "more technologies",
+                  "more tech",
+                  "more software",
+                  "more platforms",
+                  "more tools",
+                  "more databases",
+                  "more programming languages",
+                  "more about technologies",
+                  "more about tech",
+                  "more about software",
+                  "more about platforms",
+                  "more about tools",
+                  "more about databases",
+                  "more about programming languages",
+                  "tell me more about technologies",
+                  "tell me more about tech",
+                  "tell me more about software",
+                  "tell me more about platforms",
+                  "tell me more about tools",
+                  "tell me more about databases",
+                  "tell me more about programming languages",
+                  "tell me more about the technologies you use",
+                  "tell me more about the tech you use",
+                  "tell me more about the software you use",
+                  "tell me more about the platforms you use",
+                  "tell me more about the tools you use",
+                  "tell me more about the databases you use",
+                  "tell me more about the programming languages you use"
+               ]
+            },
+            {
+               "name": "SquadronContactIntent",
+               "samples": [
+                  "how can I contact you",
+                  "how can I reach you",
+                  "how can I email you",
+                  "how can I phone you",
+                  "how can I get in touch with you",
+                  "what is your email address",
+                  "what is your phone number"
+               ]
+            },
+            {
+               "name": "SquadronUnmatchedIntent",
+               "samples": [
+                  "do you know anything about {UnmatchedPhrase}",
+                  "about {UnmatchedPhrase}",
+                  "for {UnmatchedPhrase}",
+                  "tell me about {UnmatchedPhrase}",
+                  "what do you think about {UnmatchedPhrase}",
+                  "I would like to know about {UnmatchedPhrase}",
+                  "something about {UnmatchedPhrase}",
+                  "can you tell me about {UnmatchedPhrase}"
+               ],
+               "slots": [
+                  {
+                     "name": "UnmatchedPhrase",
+                     "type": "AMAZON.SearchQuery",
+                     "samples": []
+                  }
+               ]
+            },
+            {
+               "name": "Unhandled",
+               "samples": []
+            }
+         ],
+         "types": [],
+         "invocationName": "data squadron"
+      }
+   }
+}
