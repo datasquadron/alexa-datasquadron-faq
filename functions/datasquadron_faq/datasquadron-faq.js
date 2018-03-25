@@ -2,6 +2,8 @@ var alexa = require('alexa-app');
 var app = new alexa.app('datasquadron-faq');
 const t = require('./datasquadron-faq-text.json');
 
+app.invocationName = 'data squadron';
+
 app.pre = function(req, res, type) {
 	if (req.applicationId != "amzn1.ask.skill.629a6d11-a66e-4022-ba04-e46d51fb736c") {
     // fail ungracefully
@@ -183,20 +185,33 @@ function isUnmatchedPhrase(intent) {
     return unmatchedPhrase;
 };
 
+app.intent("SquadronContactIntent", {
+        "slots": {},
+        "utterances": [
+        	"how can I {contact|reach|email|phone|get in touch with} you",
+        	"what is your {email address|phone number}"
+        ]
+	},
+	function(req, res) {
+		res.say(t.SQUADRON_CONTACT);
+		res.shouldEndSession(false);
+		res.reprompt(t.SQUADRON_CONTACT_REPROMPT);
+	}
+);
+
 app.intent("SquadronUnmatchedIntent", {
         "slots": {
-            "name": "UnmatchedPhrase",
-            "type": "AMAZON.SearchQuery"
+            "UnmatchedPhrase": "AMAZON.SearchQuery"
         },
         "utterances": [
-            "do you know anything about {UnmatchedPhrase}",
-            "about {UnmatchedPhrase}",
-            "for {UnmatchedPhrase}",
-            "tell me about {UnmatchedPhrase}",
-            "what do you think about {UnmatchedPhrase}",
-            "I would like to know about {UnmatchedPhrase}",
-            "something about {UnmatchedPhrase}",
-            "can you tell me about {UnmatchedPhrase}"
+            "do you know anything about {-|UnmatchedPhrase}",
+            "about {-|UnmatchedPhrase}",
+            "for {-|UnmatchedPhrase}",
+            "tell me about {-|UnmatchedPhrase}",
+            "what do you think about {-|UnmatchedPhrase}",
+            "I would like to know about {-|UnmatchedPhrase}",
+            "something about {-|UnmatchedPhrase}",
+            "can you tell me about {-|UnmatchedPhrase}"
         ]
 	},
 	function(req, res) {

@@ -19,6 +19,8 @@
     "SQUADRON_TECH": "We build solutions primarily with open source big data technologies and Tableau. ",
     "SQUADRON_TECH_REPROMPT": "For more info, say 'tell me more about the tech you use.' ",
     "SQUADRON_TECH_MORE": "We use big data technologies such as Hadoop, Kafka, Spark; programming languages such as Java, Python, Ruby on Rails, Javascript and GoLang; SQL and NoSQL databases; and AWS cloud infrastructure and services. Oh and we build Alexa chat bots too. ",
+    "SQUADRON_CONTACT": "If you'd like to get in touch with us, please email info@datasquadron.com.",
+    "SQUADRON_CONTACT_REPROMPT": "We look forward to hearing from you at info@datasquadron.com. Is there anything else I can help you with?",
     "SQUADRON_QUESTIONS": [
         "Are your internal teams swamped with existing projects? ",
         "Are you having trouble hiring people with key skills in Seattle's highly competitive tech job market? ",
