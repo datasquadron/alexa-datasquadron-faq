@@ -1,10 +1,10 @@
 {
   "name": "alexa-datasquadron-faq",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An Alexa Skill that answers frequently asked questions about Data Squadron.",
   "main": "datasquadron-faq.js",
   "dependencies": {
-    "alexa-app": "^3.1.0"
+    "alexa-app": "^4.2.1"
 },
 "devDependencies": {
   "mocha": "^2.3.4",
@@ -16,5 +16,8 @@
   "test": "mocha test"
 },
 "author": "Bob Gale (bob.gale@datasquadron.com)",
-"license": "MIT"
+"license": "MIT",
+"repository": {
+  "type": "git",
+  "url": "https://github.com/datasquadron/alexa-datasquadron-faq"
 }
