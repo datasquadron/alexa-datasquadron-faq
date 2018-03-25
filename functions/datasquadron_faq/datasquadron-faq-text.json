@@ -4,7 +4,7 @@
     "LISTENING_MESSAGE": "I'm listening. ",
     "HELP_PROMPT": "You can ask us a question, like 'Who are you', or 'What do you do'. ",
     "HELP_REPROMPT": "Sorry, I didn't get that. Ask a question, like 'Who are you', or 'What do you do'. Or you can say 'Exit'. ",
-    "STOP_MESSAGE": "Goodbye! ",
+    "STOP_MESSAGE": "OK, talk to you later. ",
     "UNMATCHED_MESSAGE": "Sorry, I don't know anything about ",
     "UNMATCHED_REPROMPT": "Try asking a question like who, what, where, or why. ",
     "UNHANDLED_MESSAGE": "What the fork do you say? ",

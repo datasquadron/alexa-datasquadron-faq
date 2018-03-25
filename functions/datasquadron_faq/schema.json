@@ -12,7 +12,11 @@
             },
             {
                "name": "AMAZON.StopIntent",
-               "samples": []
+               "samples": [
+                  "no",
+                  "no thanks",
+                  "no thank you"
+               ]
             },
             {
                "name": "SquadronHello",
@@ -71,8 +75,8 @@
                   "who do you work with",
                   "customers",
                   "clients",
-                  "about your customers",
-                  "about your clients",
+                  "your customers",
+                  "your clients",
                   "who are your customers",
                   "who are your clients",
                   "tell me who your customers are",
@@ -148,10 +152,14 @@
             {
                "name": "SquadronContactIntent",
                "samples": [
+                  "contacting you",
+                  "emailing you",
+                  "calling you",
                   "how can I contact you",
                   "how can I reach you",
                   "how can I email you",
                   "how can I phone you",
+                  "how can I call you",
                   "how can I get in touch with you",
                   "what is your email address",
                   "what is your phone number"

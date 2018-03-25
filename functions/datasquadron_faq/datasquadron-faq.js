@@ -42,7 +42,11 @@ app.intent("AMAZON.CancelIntent", {
 
 app.intent("AMAZON.StopIntent", {
 		"slots": {},
-		"utterances": []
+		"utterances": [
+			"no",
+			"no thanks",
+			"no thank you"
+		]
 	},
 	function(req, res) {
 		res.say(t.STOP_MESSAGE);
