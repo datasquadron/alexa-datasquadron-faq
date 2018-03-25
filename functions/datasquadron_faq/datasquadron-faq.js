@@ -134,7 +134,7 @@ app.intent("SquadronForWhomIntent", {
             "who works with",
             "who do you work with",
             "{customers|clients}",
-            "about your {customers|clients}",
+            "your {customers|clients}",
             "who are your {customers|clients}",
             "tell me who your {customers|clients} are",
         ]
@@ -188,7 +188,8 @@ function isUnmatchedPhrase(intent) {
 app.intent("SquadronContactIntent", {
         "slots": {},
         "utterances": [
-        	"how can I {contact|reach|email|phone|get in touch with} you",
+        	"{contacting you|emailing you|calling you}",
+        	"how can I {contact|reach|email|phone|call|get in touch with} you",
         	"what is your {email address|phone number}"
         ]
 	},
