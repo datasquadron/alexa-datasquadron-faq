@@ -187,6 +187,41 @@ describe('Faq', function() {
 			return expect(ssml).to.eql("<speak>Sorry, I don't know anything about Pontiac firebirds. Try asking a question like who, what, where, or why.</speak>");
 		});
 	});
+
+	it('returns a card', function() {
+		return request(server)
+		.post('/datasquadron-faq')
+		.send({
+			session: {
+				application: {
+					applicationId: 'amzn1.ask.skill.629a6d11-a66e-4022-ba04-e46d51fb736c'
+				},
+				user: {
+					userId: 'foo'
+				}
+			},
+			context: {
+				System: {
+					application: {
+						applicationId: 'amzn1.ask.skill.629a6d11-a66e-4022-ba04-e46d51fb736c'
+					},
+					user: {
+						userId: 'foo'
+					}
+				}
+			},
+			request: {
+				applicationId: 'amzn1.ask.skill.629a6d11-a66e-4022-ba04-e46d51fb736c',
+				type: 'LaunchRequest',
+			}
+		})
+		.expect(200)
+		.then(function(response) {
+			var res = response.body.response;
+			return expect(res).to.have.property('card');
+		});
+	});
+
 });
 
 

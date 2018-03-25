@@ -3,6 +3,15 @@ var app = new alexa.app('datasquadron-faq');
 const t = require('./datasquadron-faq-text.json');
 
 app.invocationName = 'data squadron';
+var card = {
+  type: "Standard",
+  title: t.SQUADRON_CARD_TITLE,
+  text: t.SQUADRON_CARD_TEXT,
+  image: {
+    smallImageUrl: t.SQUADRON_CARD_SMALL_IMAGE_URL,
+    largeImageUrl: t.SQUADRON_CARD_LARGE_IMAGE_URL 
+	}
+}
 
 app.pre = function(req, res, type) {
 	if (req.applicationId != "amzn1.ask.skill.629a6d11-a66e-4022-ba04-e46d51fb736c") {
@@ -17,6 +26,7 @@ app.launch(function(req, res) {
 	res.say(t.HELP_PROMPT);
 	res.shouldEndSession(false);
 	res.reprompt(t.HELP_REPROMPT);
+	res.card(card);
 });
 
 app.intent("AMAZON.HelpIntent", {
