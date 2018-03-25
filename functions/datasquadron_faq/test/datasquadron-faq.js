@@ -101,6 +101,7 @@ describe('Faq', function() {
 		'SquadronForWhomIntent',
 		'SquadronTechIntent',
 		'SquadronTechMoreIntent',
+		'SquadronContactIntent',
 		'SquadronUnmatchedIntent'
 	];
 
