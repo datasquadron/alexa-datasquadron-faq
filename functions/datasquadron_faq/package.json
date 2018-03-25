@@ -1,23 +1,24 @@
 {
-  "name": "alexa-datasquadron-faq",
-  "version": "0.1.1",
-  "description": "An Alexa Skill that answers frequently asked questions about Data Squadron.",
-  "main": "datasquadron-faq.js",
-  "dependencies": {
-    "alexa-app": "^4.2.1"
-},
-"devDependencies": {
-  "mocha": "^2.3.4",
-  "express": "^4.14.0",
-  "supertest": "^2.0.1",
-  "chai": "^3.4.1"
-},
-"scripts": {
-  "test": "mocha test"
-},
-"author": "Bob Gale (bob.gale@datasquadron.com)",
-"license": "MIT",
-"repository": {
-  "type": "git",
-  "url": "https://github.com/datasquadron/alexa-datasquadron-faq"
+    "name": "alexa-datasquadron-faq",
+    "version": "0.1.1",
+    "description": "An Alexa Skill that answers frequently asked questions about Data Squadron.",
+    "main": "datasquadron-faq.js",
+    "dependencies": {
+        "alexa-app": "^4.2.1"
+    },
+    "devDependencies": {
+        "mocha": "^2.3.4",
+        "express": "^4.14.0",
+        "supertest": "^2.0.1",
+        "chai": "^3.4.1"
+    },
+    "scripts": {
+        "test": "mocha test"
+    },
+    "author": "Bob Gale (bob.gale@datasquadron.com)",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/datasquadron/alexa-datasquadron-faq"
+    }
 }
