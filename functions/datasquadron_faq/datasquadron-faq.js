@@ -204,7 +204,9 @@ app.intent("SquadronContactIntent", {
         "utterances": [
         	"{contacting you|emailing you|calling you}",
         	"how can I {contact|reach|email|phone|call|get in touch with} you",
-        	"what is your {email address|phone number}"
+        	"what is your {email address|phone number}",
+        	"how can I start a project",
+        	"start a project"
         ]
 	},
 	function(req, res) {
