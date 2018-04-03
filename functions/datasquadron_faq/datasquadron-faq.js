@@ -117,6 +117,7 @@ app.intent("SquadronWhyIntent", {
 	},
 	function(req, res) {
 		res.say(t.SQUADRON_WHY);
+		res.say(t.SQUADRON_GENERAL_PROMPT);
 		res.shouldEndSession(false);
 		res.reprompt(t.HELP_REPROMPT);
 	}
@@ -134,6 +135,7 @@ app.intent("SquadronWhereIntent", {
 	},
 	function(req, res) {
 		res.say(t.SQUADRON_WHERE);
+		res.say(t.SQUADRON_GENERAL_PROMPT);
 		res.shouldEndSession(false);
 		res.reprompt(t.HELP_REPROMPT);
 	}
@@ -155,6 +157,7 @@ app.intent("SquadronForWhomIntent", {
 	},
 	function(req, res) {
 		res.say(t.SQUADRON_FOR_WHOM);
+		res.say(t.SQUADRON_GENERAL_PROMPT);
 		res.shouldEndSession(false);
 		res.reprompt(t.HELP_REPROMPT);
 	}
@@ -188,6 +191,7 @@ app.intent("SquadronTechMoreIntent", {
 	},
 	function(req, res) {
 		res.say(t.SQUADRON_TECH_MORE);
+		res.say(t.SQUADRON_GENERAL_PROMPT);
 		res.shouldEndSession(false);
 		res.reprompt(t.HELP_REPROMPT);
 	}
@@ -202,15 +206,16 @@ function isUnmatchedPhrase(intent) {
 app.intent("SquadronContactIntent", {
         "slots": {},
         "utterances": [
+        	"start a project",
+        	"how can I start a project",
         	"{contacting you|emailing you|calling you}",
         	"how can I {contact|reach|email|phone|call|get in touch with} you",
-        	"what is your {email address|phone number}",
-        	"how can I start a project",
-        	"start a project"
+        	"what is your {email address|phone number}"
         ]
 	},
 	function(req, res) {
 		res.say(t.SQUADRON_CONTACT);
+		res.say(t.SQUADRON_CONTACT_PROMPT);
 		res.shouldEndSession(false);
 		res.reprompt(t.SQUADRON_CONTACT_REPROMPT);
 	}
